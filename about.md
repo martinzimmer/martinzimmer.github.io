@@ -1,8 +1,8 @@
-——-
+---
 title: „About“
-permalink: „/about/„
+permalink: "/about/"
 layout: page
-——-
+---
 
 ## Test
 fsgasfg
