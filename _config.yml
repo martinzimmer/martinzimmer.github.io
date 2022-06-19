@@ -1,4 +1,4 @@
-title: "Blog"
+title: "Martin Zimmer"
 author: "Martin Zimmer"
 description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
 permalink: /:title/
@@ -16,13 +16,15 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "index.html", title: Home}
   - {file: "archive.html", title: Posts}
   - {file: "about.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:mz@aeschma.de"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
+  - {title: Github, icon: github, url: "https://github.com/martinzimmer"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Impressum, file: "impressum.md"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
